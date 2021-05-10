@@ -1,0 +1,99 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-image: url(./img-res/class.jpeg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+  }
+  
+  .avatar-video1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 55px;
+    width: 55px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 689px;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  }
+  
+  .avatar-video2 {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 55px;
+    width: 55px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 388px;
+    left: 1045px;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  }
+
+  .navigation-outer div{
+    float:left;
+    padding: 15px;
+  }
+
+  .navigation-outer {
+     position: absolute;
+  width: 25%;
+  bottom: 0px;
+  background-color:rgba(128,128,128,0.3);
+  
+  }
+
+  .connect-box {
+   position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 100px;
+  background-color:rgba(128,128,128,0.3);
+
+  
+  }
+
+  .connect-box div{
+    padding: 10px;
+    width:70%;
+    margin: auto;
+    align-content: center;
+  }
+
+  .form-control{
+        border: 2px solid #456879;
+    border-radius: 10px;
+    height: 22px;
+    width: 230px;
+  }
+
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+video {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+   top: -20px;
+  left: -25px; 
+}
+
+.heading {
+  position: absolute;
+  left: 560px;
+}

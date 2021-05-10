@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FCONFERENCE</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="App-header">
+        <div class="avatar-video1">
+            <video id="my-camera"  width="300" height="300" autoplay="autoplay" muted="true" class="center-block"></video>
+        </div>
+        <div class="avatar-video2">
+            <video id="peer-camera" width="300" height="300" autoplay="autoplay" class="center-block"></video>
+        </div>
+
+            <p id="heading" class="heading"></p>
+        
+       
+            <!-- below div contains the connect,call buttons and the input for id -->
+            <div class="connect-call">
+
+                    <div id ="container" class="connect-box">
+                <div>
+                    <!-- username input -->
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your random username">
+                </div>
+                <div>
+                    <!-- peerID input -->
+                    <input type="text" class="form-control" name="peer_id" id="peer_id" placeholder="Peer ID" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                </div>
+                <div>
+                    <button id="connect-to-peer-btn" class="btn btn-primary form-control">Connect to Peer</button>
+                </div>
+                <div id="call">
+                      <img width="40" height="40" src="img-res/phoneCall.svg" class="btn" alt="Call">
+                     
+                </div>
+                <p id="myidlabel"></p>
+                    </div>
+                    <!-- This div is for the navigation bar from the UI from Figma which is currently non-functional -->
+                    <div class="navigation-outer">
+                        <div id="multipleacc">
+                            <!-- add the account-multiple svg here -->
+                            <img src="img-res/account-multiple.svg" alt="all members">
+                        </div>
+                        <div id="camera">
+                            <!-- add the camera svg here -->
+                            <img src="img-res/camera.svg" alt="all members">
+                        </div>
+                        <div id="microphone">
+                            <!-- add the microphone svg here -->
+                            <img src="img-res/microphone.svg" alt="all members">
+                        </div>
+                        <div id="bullhorn">
+                            <!-- add the bullhorn svg here -->
+                            <img src="img-res/bullhorn.svg" alt="all members">
+                        </div>
+                        <div id="chat">
+                            <!-- add the chat svg here -->
+                            <img src="img-res/chat.svg" alt="all members">
+                        </div>
+                        <div id="exit">
+                            <!-- add the exit svg here -->
+                            <img src="img-res/exit.svg" alt="all members">
+                        </div>
+                    </div>
+
+                        
+
+                </div>
+            </div>
+    </div>
+ 
+    <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>
